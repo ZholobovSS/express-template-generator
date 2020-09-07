@@ -1,0 +1,6 @@
+mkdir -p ./public/img ./public/js ./public/css
+mkdir -p ./src/models ./src/controllers ./src/views ./src/views/partials ./src/routes ./src/config
+touch ./app.js ./.env ./src/config/db.js ./public/js/main.js ./public/css/styles.css ./src/views/layout.hbs 
+npm init -y
+npx gitignore node
+
